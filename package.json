@@ -4,7 +4,7 @@
     "url": "https://github.com/eduludi/react-native-markdown-text.git",
     "type": "git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Render Markdown in React Native with native components (iOS & Android)",
   "main": "index.js",
