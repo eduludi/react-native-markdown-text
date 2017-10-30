@@ -1,6 +1,6 @@
 # react-native-markdown-text
 
-A component for rendering Markdown in React Native with native components, working with both iOS & Android. Pull requests are welcome!
+A component for rendering Markdown in React Native with native components, working with both iOS & Android. Pull requests are welcome!
 
 ## Getting started
 
@@ -19,15 +19,15 @@ const MyAwesomeApp = () => {
     <Markdown styles={styles}>
       #Markdown in react-native is so cool!
 
-      You can **emphasize** what you want, or just _suggest it_
+      You can **emphasize** what you want, or just _suggest it_
 
       You can even [link your website](http://charlesmangwa.surge.sh) or if you prefer: [email somebody](mailto:email@somebody.com)
 
-      Spice it up with some GIF:
+      Spice it up with some GIF:
 
       ![Some GIF](https://media.giphy.com/media/dkGhBWE3SyzXW/giphy.gif)
 
-      And even add a cool video!
+      And even add a cool video:
 
       [![A cool video from YT](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](http://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
@@ -70,7 +70,7 @@ Example:
     }
   }}
 >
-  #Hello
+  #Hello
 </Markdown>
 ```
 
