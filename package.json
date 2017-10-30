@@ -1,0 +1,25 @@
+{
+  "name": "react-native-markdown-text",
+  "repository": {
+    "url": "https://github.com/eduludi/react-native-markdown-text.git",
+    "type": "git"
+  },
+  "version": "1.0.0",
+  "description":
+    "Render Markdown in React Native with native components (iOS & Android)",
+  "main": "index.js",
+  "author": "Eduardo Ludi <edu.ludi@gmail.com>",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "simple-markdown": "git://github.com/CharlesMangwa/simple-markdown.git"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "keywords": ["react-native", "native", "markdown", "md", "parse", "parser"]
+}
