@@ -25,12 +25,14 @@ class Markdown extends React.Component {
 
   renderContent = () => {
     const mergedStyles = Object.assign(styles, this.props.styles)
-
-    const rules = this.postProcessRules({
-      ...SimpleMarkdown.defaultRules,
-      ...initialRules(mergedStyles),
-      ...this.props.rules,
-    })
+    const rules = this.postProcessRules(
+      _.merge(
+        {},
+        SimpleMarkdown.defaultRules,
+        initialRules(mergedStyles),
+        this.props.rules
+      )
+    )
     const child = Array.isArray(this.props.children)
       ? this.props.children.join('')
       : this.props.children
