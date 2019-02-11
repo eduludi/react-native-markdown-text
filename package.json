@@ -5,12 +5,11 @@
     "type": "git"
   },
   "version": "1.0.1",
-  "description":
-    "Render Markdown in React Native with native components (iOS & Android)",
+  "description": "Render Markdown in React Native with native components (iOS & Android)",
   "main": "index.js",
   "author": "Eduardo Ludi <edu.ludi@gmail.com>",
   "dependencies": {
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.11",
     "simple-markdown": "git://github.com/CharlesMangwa/simple-markdown.git"
   },
   "peerDependencies": {
@@ -18,8 +17,16 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
-    "eslint": "^4.8.0",
+    "eslint": "^5.13.0",
     "eslint-plugin-react": "^7.4.0"
   },
-  "keywords": ["react-native", "native", "markdown", "md", "parse", "parser"]
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "native",
+    "markdown",
+    "md",
+    "parse",
+    "parser"
+  ]
 }
