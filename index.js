@@ -24,7 +24,7 @@ class Markdown extends React.Component {
   }
 
   renderContent = () => {
-    const mergedStyles = Object.assign(styles, this.props.styles)
+    const mergedStyles = _.merge({}, styles, this.props.styles)
     const rules = this.postProcessRules(
       _.merge(
         {},
